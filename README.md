@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # COESyP
 Pagina web educativa
 =======
