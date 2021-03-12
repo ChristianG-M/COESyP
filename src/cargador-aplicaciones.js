@@ -19,7 +19,7 @@ export default class CargadorAplicaciones
     cargarAplicaciones( nombre, prefijo, urlAplicacion )
     {
         const almacenamientoPersonalizado = {
-            this.distribuidorEventoGlobal: this.distribuidorEventoGlobal,
+            distribuidorEventoGlobal: this.distribuidorEventoGlobal,
         };
         almacenamientoPersonalizado.store = crearAlmacenamiento();
         this.distribuidorEventoGlobal.registrarAlmacenamiento(almacenamientoPersonalizado.store);

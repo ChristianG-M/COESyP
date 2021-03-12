@@ -2,7 +2,7 @@ import { createStore } from 'redux';
 
 const estadosIniciales = 
 {
-
+    prueba: [],
 };
 
 /**
@@ -18,9 +18,9 @@ function asignarValoresAlmacenamiento(estados = estadosIniciales, accion)
         case 'prueba':
             return
             {
-                prueba : accion.value,
-                datosConsultaprueba : estados.datosConsultaprueba,
-                datosSemanal : estados.datosSemanal,
+                prueba: accion.value,
+                datosConsultaprueba: estados.datosConsultaprueba,
+                datosSemanal: estados.datosSemanal,
             };
         default:
             return estados;
