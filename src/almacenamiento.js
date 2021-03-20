@@ -20,7 +20,7 @@ function asignarValoresAlmacenamiento(estados = estadosIniciales, accion)
             {
                 prueba: accion.value,
                 datosConsultaprueba: estados.datosConsultaprueba,
-                datosSemanal: estados.datosSemanal,
+                datosSemanal: estados.datosSemanal
             };
         default:
             return estados;
